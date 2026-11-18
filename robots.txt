@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ash0271.github.io/sitemap.xml
