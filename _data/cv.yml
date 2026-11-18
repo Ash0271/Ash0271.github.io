@@ -1,189 +1,179 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Anshuman Dash
+  label: Undergraduate researcher in neuroscience and AI
+  email: anshuman.dash134@gmail.com
+  location: Singapore
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Final-year MSc Mathematics + BE Computer Science student at BITS Pilani, doing an undergraduate thesis at the National University of Singapore. Interested in the intersection of neuroscience and artificial intelligence.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: Ash0271
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: anshuman-dash-2747b424a
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Birla Institute of Technology and Science (BITS), Pilani
+        location: Pilani, India
+        url: https://www.bits-pilani.ac.in/
+        area: Mathematics (MSc) and Computer Science (BE)
+        studyType: Integrated dual degree
+        start_date: 2022-08
+        end_date: 2027-06
+        score: "CGPA 9.01/10"
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+          - "Undergraduate thesis at the National University of Singapore (Aug 2026 – present)"
+          - "TOEFL iBT: 110/120"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: National University of Singapore
+        position: Undergraduate Thesis Student, Prof. Camilo Libedinsky
+        location: Singapore
+        start_date: 2026-08
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - "Studying whether a DreamerV3 world-model agent regulates two internal nutrient levels better when surprising, need-relevant events update its memory more strongly."
+          - "Diagnosed a baseline that appeared to survive but followed a habitual path; reworked the environment so survival required genuine foraging."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: University of Southern California (IUSSTF–Viterbi Fellowship)
+        position: Research Intern, Prof. Andrei Irimia
+        location: Los Angeles, USA
+        start_date: 2025-05
+        end_date: 2025-07
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Built a 3D vision transformer to predict brain age from structural MRI (UK Biobank)."
+          - "Added a convolutional stem to address overfitting, reducing validation MAE from 5.98 to 4.83 years."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: BITS Pilani
+        position: Research Student, Prof. Jagat Sesh Challa
+        location: Pilani, India
+        start_date: 2025-08
+        end_date: 2026-08
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Evaluated federated learning defenses across vision, tabular and medical data; found defenses fail to transfer across modalities and identified model collapse masquerading as attack success."
+          - "Designed a modality-aware defense (norm clipping + multi-client selection). First-author paper under review."
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: BITS Pilani
+        position: Research Student, Prof. Jitender Kumar
+        location: Pilani, India
+        start_date: 2025-01
+        end_date: 2026-08
+        highlights:
+          - "Studied numerical semigroups generated by three consecutive triangular numbers; developed a new proof adopted into the manuscript (in preparation)."
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: BITS Pilani
+        position: Research Student, Prof. Sumanta Pasari
+        location: Pilani, India
+        start_date: 2024-01
+        end_date: 2024-05
+        highlights:
+          - "Designed an ensemble hybridization framework combining ARIMA and BiLSTM models for solar irradiance forecasting; published at IEEE ODICON 2026."
+
+      - company: Capital One
+        position: Software Engineering Intern
+        location: Bengaluru, India
+        start_date: 2026-05
+        end_date: 2026-07
+        highlights:
+          - "Developed a foundational memory architecture for coding agents, based on a framework created by my mentor."
+
+      - company: CAI Platforms
+        position: Summer Intern
+        location: Bengaluru, India
+        start_date: 2024-05
+        end_date: 2024-07
+        highlights:
+          - "Researched topics in generative AI and machine learning; wrote technical blogs published on the company website; built small automation workflows."
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Solar Irradiance Prediction Through Ensemble Learning Framework: A Case Study from India"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - S. Shukla
+          - Anshuman Dash
+          - Sumanta Pasari
+        publisher: 2026 4th IEEE ODICON, pp. 1–5
+        releaseDate: 2026-02
+        summary: Published.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Cross-Modal Evaluation of Federated Learning Defenses"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Anshuman Dash
+          - et al.
+        publisher: Under review
+        releaseDate: 2026
+        summary: First author.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "On Isolated Gaps of Numerical Semigroups"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Nachiket Garg
+          - Anshuman Dash
+          - Jitender Kumar
+        publisher: In preparation
+        releaseDate: 2026
+
+    Volunteer:
+      - company: BITS Pilani Digital, Online BSc Computer Science
+        position: Lead Teaching Assistant, Data Visualization
+        location: Online
+        start_date: 2025-12
+        end_date: 2026-03
+        summary: Managed a team of TAs and coordinated between faculty and TAs, in addition to standard TA duties.
+
+      - company: BITS Pilani Digital, Online BSc Computer Science
+        position: Teaching Assistant
+        location: Online
+        start_date: 2024-08
+        end_date: 2026-06
+        summary: Introduction to Logic, Discrete Mathematics, Writing Practice. Moderated forums, evaluated assignments and exams with feedback, and created assignment and quiz content.
+
+      - company: English Press Club, BITS Pilani
+        position: Proofreader (previously Writer, Editor)
+        location: Pilani, India
+        start_date: 2023-08
+        end_date: 2025-12
+        summary: Wrote, edited and proofread articles for the club website and print edition, read by the BITS Pilani student body.
+
+      - company: Kalipatnapu AR/VR Lab, BITS Pilani
+        position: Researcher
+        location: Pilani, India
+        start_date: 2024-03
+        end_date: 2025-05
+        summary: Read and presented literature on physiological signals in VR/AR, including affective computing and biosignal-driven empathic systems.
+
+    Awards:
+      - title: IUSSTF–Viterbi Fellowship
+        date: 2025
+        awarder: Indo-U.S. Science and Technology Forum and USC Viterbi
+        summary: Fully funded research fellowship awarded to 15 students from India.
+
+      - title: Merit Scholarship (40%)
+        date: 2023
+        awarder: BITS Pilani
+        summary: Awarded to the top 2% of students for academic performance.
+
+      - title: 1968–1973 Batch Golden Jubilee Scholarship (25%)
+        date: 2023
+        awarder: BITS Pilani Alumni Association
+        summary: For meritorious academic performance.
+
+      - title: IOQM (PRMO) Merit Certificate
+        date: 2022
+        awarder: Homi Bhabha Centre for Science Education
+        summary: Top 300 nationally in the preliminary round of the Mathematics Olympiad.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming
+        keywords: "Python, C++"
+      - name: Machine learning
+        keywords: "PyTorch, scikit-learn, Hugging Face, timm"
+      - name: Scientific computing
+        keywords: "NumPy, SciPy, pandas, GAP"
+      - name: Other
+        keywords: "LaTeX, Git, Linux"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        summary: Fluent
+      - name: Hindi
+        summary: Fluent
