@@ -23,7 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-Hi, I'm Anshuman (Ash). I'm a final-year dual-degree student in Mathematics (MSc) and Computer Science (BE) at [BITS Pilani](https://www.bits-pilani.ac.in/), India.
+Hi, I'm Anshuman Dash. I'm a final-year dual-degree student in Mathematics (MSc) and Computer Science (BE) at [BITS Pilani](https://www.bits-pilani.ac.in/), India.
 
 I'm interested in the intersection of **neuroscience and artificial intelligence**: building models that learn the way brains do, and using those models to understand the brain.
 
