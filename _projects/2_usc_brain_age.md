@@ -2,6 +2,7 @@
 layout: page
 title: Brain Age Prediction with Hybrid Vision Transformers
 description: IUSSTF–Viterbi Fellowship · University of Southern California · Summer 2025
+img: assets/img/projects/usc_viterbi.jpg
 importance: 1
 category: Research Internship
 ---
