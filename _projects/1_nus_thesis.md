@@ -2,6 +2,7 @@
 layout: page
 title: Modeling Cognitive Operations from Neural Data Analysis
 description: Undergraduate thesis · National University of Singapore · Aug 2026 – present
+img: assets/img/projects/nus_soc.jpg
 importance: 1
 category: Research Projects
 ---
