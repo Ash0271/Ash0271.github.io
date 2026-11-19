@@ -1,4 +1,4 @@
+# TEMPORARY until ICAART decision (4 Dec 2026): hide site from search engines.
+# After 4 Dec, change "Disallow: /" back to "Disallow:" (empty).
 User-agent: *
-Disallow:
-
-Sitemap: https://ash0271.github.io/sitemap.xml
+Disallow: /
