@@ -1,47 +1,51 @@
 ---
 layout: page
 title: Modeling Cognitive Operations from Neural Data Analysis
-description: Undergraduate thesis · National University of Singapore · Aug 2026 – present
+description: Final year undergraduate thesis at NUS
 img: assets/img/projects/nus_soc.jpg
 importance: 1
 category: Research Projects
 ---
 
-**Advisor:** [Prof. Camilo Libedinsky](https://fass.nus.edu.sg/psy/people/libedinsky-camilo/), Department of Psychology, NUS, in collaboration with faculty in computing <!-- TODO: name the collaborating faculty if you want -->
+### Overview
 
-So far, the thesis has focused on its first part: how need and surprise shape what an agent remembers. The project continues beyond the official thesis period.
+For my final year undergraduate thesis, I am working with [Prof. Camilo Libedinsky](https://fass.nus.edu.sg/psy/people/libedinsky-camilo/) at the National University of Singapore. The first part of the thesis asks how need and surprise shape what an agent remembers: animals regulate their internal state (eating when hungry, stopping when full), and memory research suggests that surprising experiences relevant to an animal's needs are remembered more strongly. I am testing whether the same principle helps an artificial agent look after its needs. The project continues beyond the official thesis period.
 
-### The question
+### Project Details
 
-Animals regulate their internal state: they eat when hungry and stop when full. Memory research suggests that experiences which are both surprising and relevant to the animal's needs are remembered more strongly. I wanted to know whether the same principle helps an artificial agent: **does an agent that remembers surprising, need-relevant events more strongly look after its needs better?**
+**Duration:** Aug 2026 – Present<br>
+**Role:** Undergraduate Thesis Student<br>
+**Advisor:** [Prof. Camilo Libedinsky](https://fass.nus.edu.sg/psy/people/libedinsky-camilo/), Associate Professor, Department of Psychology, NUS<br>
+**Collaborators:** Faculty in computing, a postdoc in reinforcement learning, a research assistant and a master's student
 
-### Setup
+### Research Objectives
 
-- A four-legged ant robot that has to keep **two nutrient levels** near their setpoints by finding red and blue food.
-- The agent is a **DreamerV3** world-model agent, which learns a model of its environment and plans inside it.
-- My plan had three stages: build a reliable baseline, add a memory signal, and evaluate it rigorously.
+1. Building a two-resource foraging environment in which a simulated four-legged robot (MuJoCo Ant) must keep two internal nutrient levels in range by finding red and blue food
+2. Training a DreamerV3 world-model agent and establishing a reliable baseline
+3. Designing a relevance signal that combines the agent's surprise with homeostatic valence (whether its last action moved it towards or away from its setpoint) and uses it to control how strongly its memory updates
+4. Evaluating whether this need-driven memory improves survival and food choice
 
-### A baseline that only looked like it worked
+### Technologies used
 
-At first the baseline appeared to survive well. On closer analysis, it was following a habitual path and often eating the wrong food. Survival curves alone were hiding what the agent was actually doing. I reworked the environment and agent until survival required genuine foraging, and I now evaluate behavior (which food it chooses and when), not just how long it lives.
+- Python, JAX (DreamerV3)
+- MuJoCo
+- GPU cluster (PBS batch jobs)
 
-### The memory signal
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/nus_architecture.png" title="Agent and environment" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The agent and environment. The orange dashed path is my addition: a relevance signal built from the world model's surprise, an eligibility trace and the sign of homeostatic valence, which scales the recurrent memory update.
+</div>
 
-I proposed a signal that combines two things:
+### Learning Outcomes
 
-1. **Surprise:** how much the agent's world model was wrong about what just happened.
-2. **Homeostatic relevance:** whether its last action moved its internal state towards or away from the setpoint.
+The first runs showed weak locomotion and episodes that ended before hunger mattered, so I calibrated the environment first: how much food is worth, how fast nutrients drain, and which action distribution lets the robot move well. Only after that could any result be trusted.
 
-This signal controls how strongly the agent's memory updates. Through discussions with the group, I refined it so that changes **near the edge of survival count more**.
+The baseline then appeared to survive well, but when I looked at its behavior rather than its survival curves, it was following a habitual path and often eating the wrong food. I reworked the environment and agent until survival required genuine foraging. This was the most important lesson of the project so far: **summary metrics can hide what an agent is actually doing**, so I now evaluate food choice and behavior, not just how long the agent lives.
 
-### Where it stands
+I then added the relevance signal and, after discussions with my advisor and the group, refined it so that changes near the edge of survival count more. In the latest frozen evaluation across multiple seeds, this version achieved the highest average survival of all the variants I tested. The differences are still within the confidence intervals, so I treat it as an early sign rather than a result, and I am now testing it with longer training.
 
-In the latest frozen evaluation (5 seeds, 4 conditions, 16 episodes each), the distance-weighted version achieved the highest average survival of all variants. The differences are still within the confidence intervals, so I treat this as an early sign rather than a result, and I am now testing it with longer training.
-
-### The question it raised
-
-How should an agent, or a brain, decide which moment and which memory deserve credit for an outcome?
-
-### Team
-
-Regular discussions with a postdoc in reinforcement learning, a research assistant and a master's student in the group.
+The work has left me with the question I want to keep pursuing: how should an agent, or a brain, decide which moment and which memory deserve credit for an outcome?
