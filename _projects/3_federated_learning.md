@@ -2,7 +2,7 @@
 layout: page
 title: Cross-Modal Evaluation of Federated Learning Defenses
 description: BITS Pilani · Aug 2025 – Aug 2026 · First-author paper under review
-importance: 1
+importance: 2
 category: Research Projects
 ---
 
