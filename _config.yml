@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # left blank so the full name is used
+title: blank # "blank" means: show the full name
 first_name: Anshuman
 middle_name:
 last_name: Dash
