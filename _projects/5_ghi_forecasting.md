@@ -2,7 +2,7 @@
 layout: page
 title: Hybrid Models for Solar Irradiance Forecasting
 description: BITS Pilani · Jan – May 2024 · Published at IEEE ODICON 2026
-importance: 4
+importance: 3
 category: Research Projects
 related_publications: true
 ---

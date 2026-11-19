@@ -5,7 +5,7 @@ permalink: /projects/
 description: Feel free to click and open individual entries.
 nav: true
 nav_order: 2
-display_categories: [Research Internship, Research Projects, Course Projects]
+display_categories: [Research Internship, Undergraduate Thesis, Research Projects, Course Projects]
 horizontal: true
 ---
 
