@@ -2,8 +2,8 @@
 layout: page
 title: Cross-Modal Evaluation of Federated Learning Defenses
 description: BITS Pilani · Aug 2025 – Aug 2026 · First-author paper under review
-importance: 3
-category: research
+importance: 2
+category: Research Projects
 ---
 
 **Advisor:** [Prof. Jagat Sesh Challa](https://www.bits-pilani.ac.in/), Department of Computer Science & Information Systems, BITS Pilani <!-- TODO: replace with his profile URL -->

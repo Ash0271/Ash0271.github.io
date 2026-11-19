@@ -1,12 +1,12 @@
 ---
 layout: page
-title: research
+title: experience
 permalink: /projects/
-description: Click any entry for the full story behind the project.
+description: Feel free to click and open individual entries.
 nav: true
 nav_order: 2
-display_categories: [research, course projects]
-horizontal: false
+display_categories: [Research Internship, Research Projects, Course Projects]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

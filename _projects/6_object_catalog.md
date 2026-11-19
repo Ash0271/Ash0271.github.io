@@ -3,7 +3,7 @@ layout: page
 title: "Everyday Object Catalog: Classification, Attributes & Retrieval"
 description: Course project · CS F425 Deep Learning · BITS Pilani · Aug – Nov 2025
 importance: 1
-category: course projects
+category: Course Projects
 ---
 
 **Instructor:** Prof. Pratik Narang, BITS Pilani

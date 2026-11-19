@@ -33,4 +33,4 @@ Looking forward, I hope to pursue a PhD at the intersection of neuroscience and 
 
 Feel free to know more about me in the links below:
 
-<p style="text-align: center;"><a href="/projects/">Research</a> / <a href="/publications/">Publications</a> / <a href="/cv/">CV</a> / <a href="https://www.linkedin.com/in/anshuman-dash-2747b424a">LinkedIn</a></p>
+<p style="text-align: center;"><a href="/projects/">Experience</a> / <a href="/publications/">Publications</a> / <a href="/cv/">CV</a> / <a href="https://www.linkedin.com/in/anshuman-dash-2747b424a">LinkedIn</a></p>

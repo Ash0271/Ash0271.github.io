@@ -2,8 +2,8 @@
 layout: page
 title: Brain Age Prediction with Hybrid Vision Transformers
 description: IUSSTF–Viterbi Fellowship · University of Southern California · Summer 2025
-importance: 2
-category: research
+importance: 1
+category: Research Internship
 ---
 
 **Advisor:** [Prof. Andrei Irimia](https://gero.usc.edu/labs/irimialab/), University of Southern California

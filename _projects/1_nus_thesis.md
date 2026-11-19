@@ -3,7 +3,7 @@ layout: page
 title: Modeling Cognitive Operations from Neural Data Analysis
 description: Undergraduate thesis · National University of Singapore · Aug 2026 – present
 importance: 1
-category: research
+category: Research Projects
 ---
 
 **Advisor:** [Prof. Camilo Libedinsky](https://fass.nus.edu.sg/psy/people/libedinsky-camilo/), Department of Psychology, NUS, in collaboration with faculty in computing <!-- TODO: name the collaborating faculty if you want -->
