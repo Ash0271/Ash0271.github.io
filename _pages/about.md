@@ -2,35 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: MSc Mathematics + BE Computer Science, <a href='https://www.bits-pilani.ac.in/'>BITS Pilani</a> · Undergraduate thesis at the <a href='https://nus.edu.sg/'>National University of Singapore</a>
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Singapore</p>
+    <p>Final-Year Student</p>
+    <p>Mathematics and Computer Science</p>
+    <p>BITS Pilani, India</p>
 
-selected_papers: true
-social: true
+selected_papers: false
+social: false
 
 announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
+  enabled: false
 
 latest_posts:
   enabled: false
 ---
 
-Hi, I'm Anshuman Dash. I'm a final-year dual-degree student in Mathematics (MSc) and Computer Science (BE) at [BITS Pilani](https://www.bits-pilani.ac.in/), India.
+Hi. I'm a final-year dual-degree student in Mathematics (MSc) and Computer Science (BE) at [BITS Pilani](https://www.bits-pilani.ac.in/), India.
 
-I'm interested in the intersection of **neuroscience and artificial intelligence**: building models that learn the way brains do, and using those models to understand the brain.
+My research interests lie at the intersection of neuroscience and artificial intelligence: building models that learn the way brains do, and using them to understand the brain. I am an [IUSSTF–Viterbi'25](https://iusstf.org/iusstf-viterbi-program) scholar, and I did my research internship in [Prof. Andrei Irimia's group](https://gero.usc.edu/labs/irimialab/) at the University of Southern California, predicting brain age from structural MRI.
 
-I'm currently doing my undergraduate thesis with [Prof. Camilo Libedinsky](https://fass.nus.edu.sg/psy/people/libedinsky-camilo/) at the **National University of Singapore**, where I study whether an agent, like an animal, can learn to regulate its internal state when surprising, need-relevant experiences shape what it remembers. Before that, I was an [IUSSTF–Viterbi](https://iusstf.org/iusstf-viterbi-program) Fellow (2025) at the **University of Southern California**, where I built a hybrid vision transformer to predict brain age from structural MRI in [Prof. Andrei Irimia's](https://gero.usc.edu/labs/irimialab/) group.
+I am currently doing my undergraduate thesis with [Prof. Camilo Libedinsky](https://fass.nus.edu.sg/psy/people/libedinsky-camilo/) at the National University of Singapore, studying how need and surprise shape what an agent remembers. At BITS, my work spans federated learning, numerical semigroups and solar irradiance forecasting, and I have served as a Teaching Assistant and Lead Teaching Assistant.
 
-At BITS, I have also worked on the security of federated learning, numerical semigroups in pure mathematics, and solar irradiance forecasting. I've served as a Teaching Assistant and Lead Teaching Assistant for courses in BITS Pilani's online BSc Computer Science program.
+Looking forward, I hope to pursue a PhD at the intersection of neuroscience and AI, starting in Fall 2027.
 
-I am applying to PhD programs starting in Fall 2027.
+Feel free to know more about me in the links below:
 
-[Research](/projects/) / [Publications](/publications/) / [CV](/cv/)
+<p style="text-align: center;"><a href="/projects/">Research</a> / <a href="/publications/">Publications</a> / <a href="/cv/">CV</a> / <a href="https://www.linkedin.com/in/anshuman-dash-2747b424a">LinkedIn</a></p>
