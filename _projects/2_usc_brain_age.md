@@ -44,8 +44,7 @@ I spent the summer of 2025 at the University of Southern California, Los Angeles
 
 ### Learning Outcomes
 
-I worked with about 3,000 FreeSurfer-processed scans from the UK Biobank, downsampled to 128³ voxels, and built a 3D Vision Transformer that splits each brain into small cubes and learns how every region relates to every other. This was my first time working with real brain data, and with 3D models at this scale.
+Working with about 3,000 UK Biobank scans, I first reduced the patch size from 16³ to 8³, lowering validation error from 5.98 to 5.72 years. When the model began to overfit, I discussed hybrid models with the PhD student I was working with and added a convolutional stem, bringing the error to 5.19 years; cosine annealing and dropout then took it to **4.83 years**.
 
-Most of the summer went into ablations. Smaller patches (8³ instead of 16³) kept finer anatomical detail and lowered the validation error from 5.99 to 5.72 years. The model then started to overfit: training error settled near 2 years while validation error stalled around 5. A plain transformer has no built-in sense of locality, and 3,000 scans were too few to learn one. After discussing hybrid models with the PhD student guiding me, I added a small convolutional stem in front of the transformer, which brought the error to 5.19 years. Switching to a cosine learning-rate schedule and adding dropout took it to **4.83 years**.
+The result was still above published CNN baselines, but it showed that with limited data, the right inductive bias matters more than model size. I left wanting to know which brain regions the model relied on.
 
-The result was still above published CNN baselines, but it taught me that with limited data, the right inductive bias matters more than model size. I left wanting to know which brain regions the model was relying on, and whether they match known patterns of brain aging. It was an enriching summer overall: I had great mentors, a cohort of 15 IUSSTF scholars for company, and it strengthened my decision to pursue research.

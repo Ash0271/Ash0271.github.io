@@ -10,7 +10,7 @@ related_publications: true
 
 ### Overview
 
-This was my first research project, done as a study project under Prof. Sumanta Pasari at BITS Pilani. Accurate forecasts of global horizontal irradiance (GHI), the solar energy reaching the ground, matter for planning solar power. Statistical models capture regular patterns in GHI well, while deep learning models capture nonlinear ones, so we asked whether **combining them** forecasts better than either alone. The work was published at IEEE ODICON 2026 {% cite shukla2026solar %}.
+My first research project, under Prof. Sumanta Pasari at BITS Pilani, asked whether combining a statistical and a deep learning model forecasts global horizontal irradiance (GHI), the solar energy reaching the ground, better than either alone. The work was published at IEEE ODICON 2026 {% cite shukla2026solar %}.
 
 ### Project Details
 
@@ -42,6 +42,5 @@ This was my first research project, done as a study project under Prof. Sumanta 
 
 ### Learning Outcomes
 
-I came into this project new to machine learning, so the first weeks went into teaching myself the base models and their code. I then built the hybridization layer on top, with the PhD student reviewing my work as it developed.
+New to machine learning, I taught myself the base models, then built the hybridization layer with the PhD student reviewing my work. Boosting performed best at all four sites, and the hybrid outperformed both base models, a lesson I later reused at USC: **models with different strengths often work better together**.
 
-Boosting, which trains a model to correct the combined errors of the base models step by step, performed best at all four sites, and the hybrid outperformed both base models. The broader lesson stayed with me: **mixing models with different strengths often works better than relying on one**. I later reused this idea at USC, where adding a convolutional stem to a vision transformer helped it learn from limited brain MRI data.

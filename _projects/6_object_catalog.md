@@ -9,7 +9,7 @@ category: Semester Projects
 
 ### Overview
 
-A two-milestone project for the Deep Learning course (CS F425) at BITS Pilani, taught by Prof. Pratik Narang. The goal was a lightweight, CPU-friendly image understanding system for a self-collected dataset of everyday objects: classifying an object, predicting its attributes (color, material, condition), and retrieving images from a text description. Although it was nominally a team project, I built it end to end on my own.
+A two-milestone project for CS F425 Deep Learning (Prof. Pratik Narang): a lightweight image system for a self-collected dataset of everyday objects that classifies an object, predicts its attributes and retrieves images from text. I built it end to end on my own.
 
 ### Project Details
 
@@ -44,6 +44,5 @@ A two-milestone project for the Deep Learning course (CS F425) at BITS Pilani, t
 
 ### Learning Outcomes
 
-Most of the work in a project like this turns out to be the data. I collected and cleaned the images, wrote the scripts that build identity-disjoint splits (so the same physical object never appears in both training and validation), and audited the dataset for class balance and risky examples before training anything.
+Most of the work was the data: collecting and cleaning images, building identity-disjoint splits and auditing class balance before training. On my dataset, DeiT-Tiny separated the classes almost perfectly, while MobileViT mainly confused lotion and shampoo bottles; the larger pooled dataset was harder and clearly showed the gap between memorizing and generalizing.
 
-On my own dataset, DeiT-Tiny separated the classes almost perfectly, while MobileViT's main confusion was between visually similar lotion and shampoo bottles. The pooled cross-team dataset was harder, with more classes and far more varied photos, which made the gap between a model that memorizes a small dataset and one that generalizes much easier to see. Building retrieval on top of the same embeddings also showed how one backbone can serve several tasks at once.

@@ -9,7 +9,7 @@ category: Research Projects
 
 ### Overview
 
-For my final year undergraduate thesis, I am working with [Prof. Camilo Libedinsky](https://fass.nus.edu.sg/psy/people/libedinsky-camilo/) at the National University of Singapore. The first part of the thesis asks how need and surprise shape what an agent remembers: animals regulate their internal state (eating when hungry, stopping when full), and memory research suggests that surprising experiences relevant to an animal's needs are remembered more strongly. I am testing whether the same principle helps an artificial agent look after its needs. The project continues beyond the official thesis period.
+For my final-year thesis, I am working with [Prof. Camilo Libedinsky](https://fass.nus.edu.sg/psy/people/libedinsky-camilo/) at the National University of Singapore on how need and surprise shape what an agent remembers. Animals remember surprising, need-relevant experiences more strongly, and I am testing whether the same principle helps an artificial agent look after its needs.
 
 ### Project Details
 
@@ -42,10 +42,7 @@ For my final year undergraduate thesis, I am working with [Prof. Camilo Libedins
 
 ### Learning Outcomes
 
-The first runs showed weak locomotion and episodes that ended before hunger mattered, so I calibrated the environment first: how much food is worth, how fast nutrients drain, and which action distribution lets the robot move well. Only after that could any result be trusted.
+I first calibrated the environment (food value, metabolic rates and the robot's action distribution) so that results could be trusted. The baseline then appeared to survive well, but its behavior showed a habitual path and frequent wrong food choices, so I reworked the environment until survival required genuine foraging. The lesson: **summary metrics can hide what an agent is actually doing**.
 
-The baseline then appeared to survive well, but when I looked at its behavior rather than its survival curves, it was following a habitual path and often eating the wrong food. I reworked the environment and agent until survival required genuine foraging. This was the most important lesson of the project so far: **summary metrics can hide what an agent is actually doing**, so I now evaluate food choice and behavior, not just how long the agent lives.
+After refining the relevance signal with my advisor and the group so that changes near the edge of survival count more, it achieved the highest average survival of all variants in a multi-seed frozen evaluation. The differences are still within the confidence intervals, so I treat this as an early sign, and I am now testing it with longer training.
 
-I then added the relevance signal and, after discussions with my advisor and the group, refined it so that changes near the edge of survival count more. In the latest frozen evaluation across multiple seeds, this version achieved the highest average survival of all the variants I tested. The differences are still within the confidence intervals, so I treat it as an early sign rather than a result, and I am now testing it with longer training.
-
-The work has left me with the question I want to keep pursuing: how should an agent, or a brain, decide which moment and which memory deserve credit for an outcome?

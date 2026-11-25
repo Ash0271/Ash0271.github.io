@@ -9,7 +9,7 @@ category: Research Projects
 
 ### Overview
 
-Federated learning trains one shared model across many clients without collecting their data, which makes it vulnerable to a malicious client that manipulates its updates. Most defenses against such attacks have been developed and tested on image data alone. In this project, done under [Prof. Jagat Sesh Challa](https://www.bits-pilani.ac.in/pilani/jagat-sesh-challa/) at BITS Pilani, I tested whether these defenses hold up across vision, tabular and medical imaging data. The resulting paper, on which I am first author, is currently under review.
+Federated learning trains one shared model across many clients without collecting their data, which leaves it open to malicious clients. Most defenses have been tested only on images. Under [Prof. Jagat Sesh Challa](https://www.bits-pilani.ac.in/pilani/jagat-sesh-challa/), I tested whether they hold up on tabular and medical imaging data. A first-author paper from this work is under review.
 
 ### Project Details
 
@@ -40,11 +40,9 @@ Federated learning trains one shared model across many clients without collectin
 
 ### Learning Outcomes
 
-The main finding was that **a defense that works in one data modality can offer almost no protection in another**. Coordinate-wise Median, for example, suppressed a boosted backdoor on MNIST but let the identical attack through almost completely on the tabular datasets. No single defense was best everywhere.
+The main finding: **a defense that works on one data type can offer almost no protection on another**. Coordinate-wise Median suppressed a boosted backdoor on MNIST but let it through almost completely on tabular data. While investigating why, I found that in about a third of binary-classification runs the model had simply **collapsed to predicting one class**, which standard metrics count as a successful attack.
 
-While investigating why, I found a second problem. In about a third of the binary-classification runs, the model had simply **collapsed to predicting one class**. Standard metrics such as accuracy and attack success rate count this collapse as a successful attack, even though no backdoor was implanted. Separating real attacks from collapse changed how several results should be read.
-
-To address the tabular failures, I designed a modality-aware defense that combines update-norm clipping with multi-client selection, which reduced backdoor attack success on both tabular datasets. Our team shrank midway through the project, so I took on more of the experiment design and writing than planned, with Jaya Pathak, a PhD student in the group, reviewing my work. It taught me to check what a metric is actually measuring before trusting it.
+When our team shrank midway, I designed a modality-aware defense (update-norm clipping + multi-client selection) that reduced backdoor success on both tabular datasets, with Jaya Pathak, a PhD student in the group, reviewing my work.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
